@@ -1,0 +1,23 @@
+apiVersion: v2
+name: kavita
+description: Kavita — ebook and comic server. bjw-s app-template baseline.
+type: application
+version: 1.0.0
+appVersion: "latest"
+kubeVersion: ">=1.28.0-0"
+home: https://www.kavitareader.com
+keywords:
+  - kavita
+  - ebooks
+  - comics
+  - bjw-s
+  - app-template
+sources:
+  - https://github.com/Kareadita/Kavita
+  - https://github.com/bjw-s/helm-charts
+maintainers: []
+dependencies:
+  - name: app-template
+    version: "4.6.2"
+    repository: https://bjw-s-labs.github.io/helm-charts
+    alias: kavita
