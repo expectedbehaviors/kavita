@@ -3,7 +3,7 @@ name: kavita
 description: Kavita — ebook and comic server. bjw-s app-template baseline.
 type: application
 version: 1.0.0
-appVersion: "latest"
+appVersion: "1.0.0"
 kubeVersion: ">=1.28.0-0"
 home: https://www.kavitareader.com
 keywords:
